@@ -346,7 +346,7 @@ address {
 .footer .mail:focus {
     color: var(--accent);
 }
-.footer-adress-map, .footer-adress-contacts {
+.footer-adress-map, .footer-adress-contacts,.footer-adress-tel {
     font-style: normal;
     text-decoration: none;
     
