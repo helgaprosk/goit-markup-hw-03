@@ -230,6 +230,9 @@ border: 1px solid var(--header-border);
     gap: 30px;
     flex-basis: 270px;
 }
+.section-benefits-item{
+    width: 270px;
+}
 .section {
     padding-top: 0px;
     padding-bottom: 94px;
@@ -253,6 +256,9 @@ border: 1px solid var(--header-border);
     text-transform: uppercase;
         margin-top: 0;
         margin-bottom: 10px;
+}
+.section-benefits-item {
+
 }
 .section-team-item {
     /*flex-basis: calc((100% - var(--indent) * (var(--items)-1))/var(--items))*/
@@ -314,16 +320,13 @@ border: 1px solid var(--header-border);
         font-size: 14px;
         line-height: 1.71;
         text-decoration: none;
-}
-.footer-container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+        
+        padding-top: 60px;
+        padding-bottom: 60px;
+}   
 .footer .logo {
+    display: block;
     margin-bottom: 20px;
-}
-.adress-map, .footer .mail {
-    margin-bottom: 9px;
 }
 .footer .mail,
 .footer .tel {
@@ -332,6 +335,8 @@ border: 1px solid var(--header-border);
 }
 address {
     font-style:normal;
+    display:block;
+    margin-bottom: 9px;
 }
 .footer .tel:hover,
 .footer .tel:focus {
@@ -344,6 +349,7 @@ address {
 .footer-adress-map, .footer-adress-contacts {
     font-style: normal;
     text-decoration: none;
+    
 }
 .adress-map:hover,
 .adress-map:focus {
@@ -356,15 +362,13 @@ address {
 .galery .link {
     text-decoration: none;
 }
-.container-btn {
-    margin-bottom: 56px;
-}
 .btn-list {
 display:flex;
 gap: 8px;
 /*row-gap:8px;
 column-gap:8px;*/
 justify-content: center;
+margin-bottom: 56px;
 }
 .portfolio-btn {
     background-color: var(--background-color-reserve);
@@ -425,6 +429,6 @@ justify-content: center;
     border-top: none;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
