@@ -351,6 +351,9 @@ address {
     text-decoration: none;
     
 }
+.footer .footer-adress-tel{
+    margin-bottom: 0;
+}
 .adress-map:hover,
 .adress-map:focus {
     color: var(--accent);
